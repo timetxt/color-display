@@ -410,6 +410,53 @@
         .inspiration-color:hover::after {
             opacity: 1;
         }
+
+        /* Footer styles */
+        .footer {
+            width: 100%;
+            padding: 1.5rem 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .copyright {
+            color: #86868b;
+            font-size: 0.9rem;
+        }
+
+        .github-link {
+            color: #1d1d1f;
+            font-size: 1.5rem;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .github-link:hover {
+            color: #0071e3;
+        }
+
+        @media (max-width: 480px) {
+            .footer-content {
+                padding: 0 1rem;
+                flex-direction: column;
+                gap: 0.5rem;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 <body>
@@ -457,6 +504,15 @@
         </div>
     </div>
     <div class="tooltip" id="tooltip"></div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="copyright">© 2024 Color Display. All rights reserved.</span>
+            <a href="https://github.com/timetxt/color-display" target="_blank" class="github-link" title="View on GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </footer>
 
     <script>
         const colorType = document.getElementById('colorType');
