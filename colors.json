@@ -1,0 +1,620 @@
+{
+    "colors": [
+        {
+            "name": "黑色 - Black",
+            "hex": "#000000",
+            "rgb": "0, 0, 0",
+            "hsl": "0, 0%, 0%",
+            "hsb": "0, 0%, 0%",
+            "css": "black"
+        },
+        {
+            "name": "乌黑 - Raven Black",
+            "hex": "#392F41",
+            "rgb": "57, 47, 65",
+            "hsl": "274, 16%, 22%",
+            "hsb": "274, 28%, 25%",
+            "css": "raven-black"
+        },
+        {
+            "name": "玄青 - Dark Cyan",
+            "hex": "#3D3B4F",
+            "rgb": "61, 59, 79",
+            "hsl": "245, 14%, 27%",
+            "hsb": "245, 25%, 31%",
+            "css": "dark-cyan"
+        },
+        {
+            "name": "乌金 - Dark Gold",
+            "hex": "#A78E44",
+            "rgb": "167, 142, 68",
+            "hsl": "43, 42%, 46%",
+            "hsb": "43, 59%, 65%",
+            "css": "dark-gold"
+        },
+        {
+            "name": "青黛 - Indigo Blue",
+            "hex": "#426666",
+            "rgb": "66, 102, 102",
+            "hsl": "180, 21%, 33%",
+            "hsb": "180, 35%, 40%",
+            "css": "indigo-blue"
+        },
+        {
+            "name": "靛蓝 - Indigo",
+            "hex": "#065279",
+            "rgb": "6, 82, 121",
+            "hsl": "202, 91%, 25%",
+            "hsb": "202, 95%, 47%",
+            "css": "indigo"
+        },
+        {
+            "name": "靛青 - Dark Indigo",
+            "hex": "#177CB0",
+            "rgb": "23, 124, 176",
+            "hsl": "203, 77%, 39%",
+            "hsb": "203, 87%, 69%",
+            "css": "dark-indigo"
+        },
+        {
+            "name": "宝蓝 - Sapphire Blue",
+            "hex": "#4B5CC4",
+            "rgb": "75, 92, 196",
+            "hsl": "233, 52%, 53%",
+            "hsb": "233, 62%, 77%",
+            "css": "sapphire-blue"
+        },
+        {
+            "name": "蔚蓝 - Azure",
+            "hex": "#70F3FF",
+            "rgb": "112, 243, 255",
+            "hsl": "185, 100%, 72%",
+            "hsb": "185, 56%, 100%",
+            "css": "azure"
+        },
+        {
+            "name": "月白 - Moon White",
+            "hex": "#D6ECF0",
+            "rgb": "214, 236, 240",
+            "hsl": "188, 44%, 89%",
+            "hsb": "188, 11%, 94%",
+            "css": "moon-white"
+        },
+        {
+            "name": "海青 - Sea Blue",
+            "hex": "#93B5CF",
+            "rgb": "147, 181, 207",
+            "hsl": "206, 37%, 69%",
+            "hsb": "206, 29%, 81%",
+            "css": "sea-blue"
+        },
+        {
+            "name": "天青 - Sky Blue",
+            "hex": "#88ABDA",
+            "rgb": "136, 171, 218",
+            "hsl": "213, 50%, 69%",
+            "hsb": "213, 38%, 85%",
+            "css": "sky-blue"
+        },
+        {
+            "name": "石青 - Stone Blue",
+            "hex": "#7BCFA6",
+            "rgb": "123, 207, 166",
+            "hsl": "150, 47%, 65%",
+            "hsb": "150, 41%, 81%",
+            "css": "stone-blue"
+        },
+        {
+            "name": "松花绿 - Pine Green",
+            "hex": "#057748",
+            "rgb": "5, 119, 72",
+            "hsl": "151, 92%, 24%",
+            "hsb": "151, 96%, 47%",
+            "css": "pine-green"
+        },
+        {
+            "name": "松柏绿 - Cypress Green",
+            "hex": "#21A675",
+            "rgb": "33, 166, 117",
+            "hsl": "158, 67%, 39%",
+            "hsb": "158, 80%, 65%",
+            "css": "cypress-green"
+        },
+        {
+            "name": "银色 - Silver",
+            "hex": "#C0C0C0",
+            "rgb": "192, 192, 192",
+            "hsl": "0, 0%, 75%",
+            "hsb": "0, 0%, 75%",
+            "css": "silver"
+        },
+        {
+            "name": "灰色 - Gray",
+            "hex": "#808080",
+            "rgb": "128, 128, 128",
+            "hsl": "0, 0%, 50%",
+            "hsb": "0, 0%, 50%",
+            "css": "gray"
+        },
+        {
+            "name": "白色 - White",
+            "hex": "#FFFFFF",
+            "rgb": "255, 255, 255",
+            "hsl": "0, 0%, 100%",
+            "hsb": "0, 0%, 100%",
+            "css": "white"
+        },
+        {
+            "name": "褐红色 - Maroon",
+            "hex": "#800000",
+            "rgb": "128, 0, 0",
+            "hsl": "0, 100%, 25%",
+            "hsb": "0, 100%, 50%",
+            "css": "maroon"
+        },
+        {
+            "name": "中国红 - Chinese Red",
+            "hex": "#FF0000",
+            "rgb": "255, 0, 0",
+            "hsl": "0, 100%, 50%",
+            "hsb": "0, 100%, 100%",
+            "css": "red"
+        },
+        {
+            "name": "紫色 - Purple",
+            "hex": "#800080",
+            "rgb": "128, 0, 128",
+            "hsl": "300, 100%, 25%",
+            "hsb": "300, 100%, 50%",
+            "css": "purple"
+        },
+        {
+            "name": "品红 - Fuchsia",
+            "hex": "#FF00FF",
+            "rgb": "255, 0, 255",
+            "hsl": "300, 100%, 50%",
+            "hsb": "300, 100%, 100%",
+            "css": "fuchsia"
+        },
+        {
+            "name": "深绿色 - Green",
+            "hex": "#008000",
+            "rgb": "0, 128, 0",
+            "hsl": "120, 100%, 25%",
+            "hsb": "120, 100%, 50%",
+            "css": "green"
+        },
+        {
+            "name": "青柠色 - Lime",
+            "hex": "#00FF00",
+            "rgb": "0, 255, 0",
+            "hsl": "120, 100%, 50%",
+            "hsb": "120, 100%, 100%",
+            "css": "lime"
+        },
+        {
+            "name": "橄榄色 - Olive",
+            "hex": "#808000",
+            "rgb": "128, 128, 0",
+            "hsl": "60, 100%, 25%",
+            "hsb": "60, 100%, 50%",
+            "css": "olive"
+        },
+        {
+            "name": "黄色 - Yellow",
+            "hex": "#FFFF00",
+            "rgb": "255, 255, 0",
+            "hsl": "60, 100%, 50%",
+            "hsb": "60, 100%, 100%",
+            "css": "yellow"
+        },
+        {
+            "name": "海军蓝 - Navy",
+            "hex": "#000080",
+            "rgb": "0, 0, 128",
+            "hsl": "240, 100%, 25%",
+            "hsb": "240, 100%, 50%",
+            "css": "navy"
+        },
+        {
+            "name": "蓝色 - Blue",
+            "hex": "#0000FF",
+            "rgb": "0, 0, 255",
+            "hsl": "240, 100%, 50%",
+            "hsb": "240, 100%, 100%",
+            "css": "blue"
+        },
+        {
+            "name": "水鸭色 - Teal",
+            "hex": "#008080",
+            "rgb": "0, 128, 128",
+            "hsl": "180, 100%, 25%",
+            "hsb": "180, 100%, 50%",
+            "css": "teal"
+        },
+        {
+            "name": "青色 - Aqua",
+            "hex": "#00FFFF",
+            "rgb": "0, 255, 255",
+            "hsl": "180, 100%, 50%",
+            "hsb": "180, 100%, 100%",
+            "css": "aqua"
+        },
+        {
+            "name": "橙色 - Orange",
+            "hex": "#FFA500",
+            "rgb": "255, 165, 0",
+            "hsl": "39, 100%, 50%",
+            "hsb": "39, 100%, 100%",
+            "css": "orange"
+        },
+        {
+            "name": "深橙色 - Dark Orange",
+            "hex": "#FF8C00",
+            "rgb": "255, 140, 0",
+            "hsl": "33, 100%, 50%",
+            "hsb": "33, 100%, 100%",
+            "css": "darkorange"
+        },
+        {
+            "name": "珊瑚红 - Coral",
+            "hex": "#FF7F50",
+            "rgb": "255, 127, 80",
+            "hsl": "16, 100%, 66%",
+            "hsb": "16, 69%, 100%",
+            "css": "coral"
+        },
+        {
+            "name": "番茄红 - Tomato",
+            "hex": "#FF6347",
+            "rgb": "255, 99, 71",
+            "hsl": "9, 100%, 64%",
+            "hsb": "9, 72%, 100%",
+            "css": "tomato"
+        },
+        {
+            "name": "深粉色 - Deep Pink",
+            "hex": "#FF1493",
+            "rgb": "255, 20, 147",
+            "hsl": "328, 100%, 54%",
+            "hsb": "328, 92%, 100%",
+            "css": "deeppink"
+        },
+        {
+            "name": "热粉色 - Hot Pink",
+            "hex": "#FF69B4",
+            "rgb": "255, 105, 180",
+            "hsl": "330, 100%, 71%",
+            "hsb": "330, 59%, 100%",
+            "css": "hotpink"
+        },
+        {
+            "name": "淡紫色 - Lavender",
+            "hex": "#E6E6FA",
+            "rgb": "230, 230, 250",
+            "hsl": "240, 67%, 94%",
+            "hsb": "240, 8%, 98%",
+            "css": "lavender"
+        },
+        {
+            "name": "靛青色 - Indigo",
+            "hex": "#4B0082",
+            "rgb": "75, 0, 130",
+            "hsl": "275, 100%, 25%",
+            "hsb": "275, 100%, 51%",
+            "css": "indigo"
+        },
+        {
+            "name": "紫罗兰色 - Blue Violet",
+            "hex": "#8A2BE2",
+            "rgb": "138, 43, 226",
+            "hsl": "271, 76%, 53%",
+            "hsb": "271, 81%, 89%",
+            "css": "blueviolet"
+        },
+        {
+            "name": "天蓝色 - Sky Blue",
+            "hex": "#87CEEB",
+            "rgb": "135, 206, 235",
+            "hsl": "197, 71%, 73%",
+            "hsb": "197, 43%, 92%",
+            "css": "skyblue"
+        },
+        {
+            "name": "道奇蓝 - Dodger Blue",
+            "hex": "#1E90FF",
+            "rgb": "30, 144, 255",
+            "hsl": "210, 100%, 56%",
+            "hsb": "210, 88%, 100%",
+            "css": "dodgerblue"
+        },
+        {
+            "name": "皇家蓝 - Royal Blue",
+            "hex": "#4169E1",
+            "rgb": "65, 105, 225",
+            "hsl": "225, 73%, 57%",
+            "hsb": "225, 71%, 88%",
+            "css": "royalblue"
+        },
+        {
+            "name": "春绿色 - Spring Green",
+            "hex": "#00FF7F",
+            "rgb": "0, 255, 127",
+            "hsl": "150, 100%, 50%",
+            "hsb": "150, 100%, 100%",
+            "css": "springgreen"
+        },
+        {
+            "name": "森林绿 - Forest Green",
+            "hex": "#228B22",
+            "rgb": "34, 139, 34",
+            "hsl": "120, 61%, 34%",
+            "hsb": "120, 76%, 55%",
+            "css": "forestgreen"
+        },
+        {
+            "name": "金色 - Gold",
+            "hex": "#FFD700",
+            "rgb": "255, 215, 0",
+            "hsl": "51, 100%, 50%",
+            "hsb": "51, 100%, 100%",
+            "css": "gold"
+        },
+        {
+            "name": "粉红 - Pink",
+            "hex": "#FFB3A7",
+            "rgb": "255, 179, 167",
+            "hsl": "6, 100%, 83%",
+            "hsb": "6, 35%, 100%",
+            "css": "pink"
+        },
+        {
+            "name": "妃色 - Chinese Pink",
+            "hex": "#ED5736",
+            "rgb": "237, 87, 54",
+            "hsl": "9, 84%, 57%",
+            "hsb": "9, 77%, 93%",
+            "css": "chinese-pink"
+        },
+        {
+            "name": "品红 - Chinese Magenta",
+            "hex": "#F00056",
+            "rgb": "240, 0, 86",
+            "hsl": "338, 100%, 47%",
+            "hsb": "338, 100%, 94%",
+            "css": "chinese-magenta"
+        },
+        {
+            "name": "桃红 - Peach Red",
+            "hex": "#F47983",
+            "rgb": "244, 121, 131",
+            "hsl": "355, 85%, 72%",
+            "hsb": "355, 50%, 96%",
+            "css": "peach-red"
+        },
+        {
+            "name": "海棠红 - Begonia Red",
+            "hex": "#DB5A6B",
+            "rgb": "219, 90, 107",
+            "hsl": "352, 64%, 61%",
+            "hsb": "352, 59%, 86%",
+            "css": "begonia-red"
+        },
+        {
+            "name": "石榴红 - Pomegranate Red",
+            "hex": "#F20C00",
+            "rgb": "242, 12, 0",
+            "hsl": "3, 100%, 47%",
+            "hsb": "3, 100%, 95%",
+            "css": "pomegranate-red"
+        },
+        {
+            "name": "银红 - Silver Red",
+            "hex": "#F05654",
+            "rgb": "240, 86, 84",
+            "hsl": "1, 85%, 64%",
+            "hsb": "1, 65%, 94%",
+            "css": "silver-red"
+        },
+        {
+            "name": "大红 - Chinese Red",
+            "hex": "#FF2121",
+            "rgb": "255, 33, 33",
+            "hsl": "0, 100%, 56%",
+            "hsb": "0, 87%, 100%",
+            "css": "chinese-red"
+        },
+        {
+            "name": "绛紫 - Dark Purple Red",
+            "hex": "#8C4356",
+            "rgb": "140, 67, 86",
+            "hsl": "344, 35%, 41%",
+            "hsb": "344, 52%, 55%",
+            "css": "dark-purple-red"
+        },
+        {
+            "name": "胭脂 - Rouge",
+            "hex": "#9D2933",
+            "rgb": "157, 41, 51",
+            "hsl": "355, 59%, 39%",
+            "hsb": "355, 74%, 62%",
+            "css": "rouge"
+        },
+        {
+            "name": "朱红 - Vermilion",
+            "hex": "#FF4C00",
+            "rgb": "255, 76, 0",
+            "hsl": "14, 100%, 50%",
+            "hsb": "14, 100%, 100%",
+            "css": "vermilion"
+        },
+        {
+            "name": "鵝黄 - Goose Yellow",
+            "hex": "#FFF143",
+            "rgb": "255, 241, 67",
+            "hsl": "57, 100%, 63%",
+            "hsb": "57, 74%, 100%",
+            "css": "goose-yellow"
+        },
+        {
+            "name": "杏黄 - Apricot Yellow",
+            "hex": "#FFA631",
+            "rgb": "255, 166, 49",
+            "hsl": "35, 100%, 60%",
+            "hsb": "35, 81%, 100%",
+            "css": "apricot-yellow"
+        },
+        {
+            "name": "黝黑 - Blackish",
+            "hex": "#665757",
+            "rgb": "102, 87, 87",
+            "hsl": "0, 8%, 37%",
+            "hsb": "0, 15%, 40%",
+            "css": "blackish"
+        },
+        {
+            "name": "雪白 - Snow White",
+            "hex": "#F0FCFF",
+            "rgb": "240, 252, 255",
+            "hsl": "195, 100%, 97%",
+            "hsb": "195, 6%, 100%",
+            "css": "snow-white"
+        },
+        {
+            "name": "青碧 - Cyan Blue",
+            "hex": "#48C0A3",
+            "rgb": "72, 192, 163",
+            "hsl": "166, 48%, 52%",
+            "hsb": "166, 63%, 75%",
+            "css": "cyan-blue"
+        },
+        {
+            "name": "赤金 - Red Gold",
+            "hex": "#F2BE45",
+            "rgb": "242, 190, 69",
+            "hsl": "43, 87%, 61%",
+            "hsb": "43, 71%, 95%",
+            "css": "red-gold"
+        },
+        {
+            "name": "粉凤仙 - Pink Balsam",
+            "hex": "#EAC0CE",
+            "rgb": "234, 192, 206",
+            "hsl": "340, 48%, 84%",
+            "hsb": "340, 18%, 92%",
+            "css": "pink-balsam"
+        },
+        {
+            "name": "浅粉 - Light Pink",
+            "hex": "#E5B8C3",
+            "rgb": "229, 184, 195",
+            "hsl": "345, 39%, 81%",
+            "hsb": "345, 20%, 90%",
+            "css": "light-pink"
+        },
+        {
+            "name": "淡粉 - Pale Pink",
+            "hex": "#E8AFC5",
+            "rgb": "232, 175, 197",
+            "hsl": "338, 55%, 80%",
+            "hsb": "338, 25%, 91%",
+            "css": "pale-pink"
+        },
+        {
+            "name": "紫薇花 - Crape Myrtle",
+            "hex": "#EEA5D1",
+            "rgb": "238, 165, 209",
+            "hsl": "320, 67%, 79%",
+            "hsb": "320, 31%, 93%",
+            "css": "crape-myrtle"
+        },
+        {
+            "name": "暗粉 - Dark Pink",
+            "hex": "#E18DAC",
+            "rgb": "225, 141, 172",
+            "hsl": "338, 58%, 72%",
+            "hsb": "338, 37%, 88%",
+            "css": "dark-pink"
+        },
+        {
+            "name": "荷花红 - Lotus Red",
+            "hex": "#EB7FAF",
+            "rgb": "235, 127, 175",
+            "hsl": "333, 74%, 71%",
+            "hsb": "333, 46%, 92%",
+            "css": "lotus-red"
+        },
+        {
+            "name": "紫水晶 - Amethyst",
+            "hex": "#C3A6CB",
+            "rgb": "195, 166, 203",
+            "hsl": "287, 26%, 72%",
+            "hsb": "287, 18%, 80%",
+            "css": "amethyst"
+        },
+        {
+            "name": "浅石英紫 - Light Quartz Purple",
+            "hex": "#AB96C5",
+            "rgb": "171, 150, 197",
+            "hsl": "264, 29%, 68%",
+            "hsb": "264, 24%, 77%",
+            "css": "light-quartz-purple"
+        },
+        {
+            "name": "木槿紫 - Hibiscus Purple",
+            "hex": "#A381BA",
+            "rgb": "163, 129, 186",
+            "hsl": "277, 29%, 62%",
+            "hsb": "277, 31%, 73%",
+            "css": "hibiscus-purple"
+        },
+        {
+            "name": "长春花色 - Periwinkle",
+            "hex": "#DE7AB1",
+            "rgb": "222, 122, 177",
+            "hsl": "326, 61%, 67%",
+            "hsb": "326, 45%, 87%",
+            "css": "periwinkle"
+        },
+        {
+            "name": "洋葱紫 - Onion Purple",
+            "hex": "#9C6680",
+            "rgb": "156, 102, 128",
+            "hsl": "329, 21%, 51%",
+            "hsb": "329, 35%, 61%",
+            "css": "onion-purple"
+        },
+        {
+            "name": "龙胆紫 - Gentian Purple",
+            "hex": "#423171",
+            "rgb": "66, 49, 113",
+            "hsl": "255, 40%, 32%",
+            "hsb": "255, 57%, 44%",
+            "css": "gentian-purple"
+        },
+        {
+            "name": "玫瑰红 - Rose Red",
+            "hex": "#973444",
+            "rgb": "151, 52, 68",
+            "hsl": "351, 49%, 40%",
+            "hsb": "351, 66%, 59%",
+            "css": "rose-red"
+        },
+        {
+            "name": "玫瑰灰 - Rose Gray",
+            "hex": "#793D56",
+            "rgb": "121, 61, 86",
+            "hsl": "335, 33%, 36%",
+            "hsb": "335, 50%, 47%",
+            "css": "rose-gray"
+        },
+        {
+            "name": "臙脂 - Rouge Red",
+            "hex": "#952E3A",
+            "rgb": "149, 46, 58",
+            "hsl": "353, 53%, 38%",
+            "hsb": "353, 69%, 58%",
+            "css": "rouge-red"
+        }
+    ]
+} 
